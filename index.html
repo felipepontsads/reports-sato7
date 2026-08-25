@@ -9,8 +9,10 @@
   *{margin:0;padding:0;box-sizing:border-box;}
   html,body{height:100%;}
   body{
-    background:#1C1410;
-    color:#E7DAC0;
+    background:
+      radial-gradient(ellipse 60% 55% at 88% 12%, rgba(224,38,63,0.30), transparent 70%),
+      #0B0A0C;
+    color:#F2ECE6;
     font-family:'Jost','Segoe UI',sans-serif;
     display:flex;
     align-items:center;
@@ -18,14 +20,18 @@
   }
   .mark{
     font-size:clamp(28px,6vw,48px);
-    font-weight:300;
-    letter-spacing:.35em;
+    font-weight:600;
+    letter-spacing:.3em;
     text-transform:uppercase;
-    text-indent:.35em;
+    text-indent:.3em;
+    color:#F2ECE6;
+  }
+  .mark span{
+    color:#E0263F;
   }
 </style>
 </head>
 <body>
-  <div class="mark">Sato 7</div>
+  <div class="mark">Sato<span>7</span></div>
 </body>
 </html>
